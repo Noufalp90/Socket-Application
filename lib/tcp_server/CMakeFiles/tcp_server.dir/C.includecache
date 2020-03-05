@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/noufal.p/workspace/Noufal/Network_App/lib/tcp_server/src/tcp_server.c
+stdio.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+ifaddrs.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+netdb.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+errno.h
+-
+

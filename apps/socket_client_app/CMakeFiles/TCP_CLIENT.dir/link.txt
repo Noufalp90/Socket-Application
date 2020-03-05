@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/TCP_CLIENT.dir/src/main.c.o  -o TCP_CLIENT  libsocket_client_app.a ../../lib/tcp_client/libtcp_client.a 

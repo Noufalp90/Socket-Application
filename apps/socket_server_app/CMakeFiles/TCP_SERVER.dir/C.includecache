@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/noufal.p/workspace/Noufal/Network_App/apps/socket_server_app/include/main.h
+stdio.h
+-
+
+/home/noufal.p/workspace/Noufal/Network_App/apps/socket_server_app/src/main.c
+stdio.h
+-
+../include/main.h
+/home/noufal.p/workspace/Noufal/Network_App/apps/socket_server_app/include/main.h
+
